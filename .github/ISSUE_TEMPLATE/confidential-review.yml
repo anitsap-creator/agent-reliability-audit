@@ -1,0 +1,47 @@
+name: Confidential reliability review
+description: Request a private discussion without posting sensitive evidence.
+title: "Reliability review: "
+labels:
+  - inquiry
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include credentials, logs, customer data, exploit details, or other sensitive information. Share only enough context to establish fit; a private channel can be agreed separately.
+  - type: dropdown
+    id: failure-class
+    attributes:
+      label: Primary failure class
+      options:
+        - Duplicate or repeated action
+        - Approval or authority failure
+        - Timeout or recovery ambiguity
+        - Evaluation or outcome-proof gap
+        - Other / uncertain
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Non-sensitive impact summary
+      description: Describe the operational or business consequence without private details.
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Deployment stage
+      options:
+        - Production
+        - Pilot or staging
+        - Pre-production design
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Safety check
+      options:
+        - label: I confirm this issue contains no secrets, personal data, customer data, or vulnerability details.
+          required: true
+
