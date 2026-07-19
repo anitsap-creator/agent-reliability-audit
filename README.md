@@ -16,17 +16,17 @@ The audit looks for four costly failure classes:
 - a one-page findings report with evidence and prioritized repairs;
 - a go/no-go recommendation for a deeper audit.
 
-The introductory diagnostic is **USD 250–500**, agreed before work begins. If a full audit is justified, the diagnostic fee is credited toward it. No credentials or production access are required for the initial review.
+The standard diagnostic is **USD 500 fixed scope**, agreed before work begins. A narrower **USD 250 triage** is available when the review is limited to one failure trace and one acceptance-test recommendation. If a full audit is justified, the diagnostic fee is credited toward it. No credentials or production access are required for the initial review.
 
 ## Method
 
 We test behavior, not architecture diagrams. The core acceptance matrix covers duplicate delivery, concurrent execution, checkpoint recovery, unreachable approvals, timeout ambiguity, and proof that a protected action reaches one named terminal state.
 
-See the [audit methodology](docs/methodology.md) and [sample findings format](docs/sample-findings.md).
+See the [audit methodology](docs/methodology.md), [acceptance-test matrix](docs/acceptance-test-matrix.md), and [sample findings format](docs/sample-findings.md).
 
 ## Start a conversation safely
 
-GitHub issues are public. Do not post logs, credentials, customer data, or vulnerability details. Open a [review request](../../issues/new?template=confidential-review.yml) with only non-sensitive context. We will use it to agree on a private channel before reviewing evidence.
+GitHub issues are public. Do not post logs, credentials, customer data, or vulnerability details. Open a [non-sensitive review request](../../issues/new?template=reliability-review.yml), or email **anit.sap@gmail.com** with only a short, non-sensitive summary. A private evidence-transfer method is agreed before any logs are reviewed.
 
 ## Status
 
