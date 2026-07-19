@@ -24,11 +24,10 @@ We test behavior, not architecture diagrams. The core acceptance matrix covers d
 
 See the [audit methodology](docs/methodology.md) and [sample findings format](docs/sample-findings.md).
 
-## Start a private conversation
+## Start a conversation safely
 
-Do not post logs, credentials, customer data, or vulnerability details publicly. Open a [confidential-review request](../../issues/new?template=confidential-review.yml) with only non-sensitive context. We will use it to agree on a private channel before reviewing evidence.
+GitHub issues are public. Do not post logs, credentials, customer data, or vulnerability details. Open a [review request](../../issues/new?template=confidential-review.yml) with only non-sensitive context. We will use it to agree on a private channel before reviewing evidence.
 
 ## Status
 
 This is an early commercial validation project. The method is based on failure modes observed while building and testing governed agent workflows; the offer has not yet accumulated public customer case studies. Claims will be updated only when evidence supports them.
-

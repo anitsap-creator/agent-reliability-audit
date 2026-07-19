@@ -1,4 +1,4 @@
-name: Confidential reliability review
+name: Reliability review request
 description: Request a private discussion without posting sensitive evidence.
 title: "Reliability review: "
 labels:
@@ -44,4 +44,3 @@ body:
       options:
         - label: I confirm this issue contains no secrets, personal data, customer data, or vulnerability details.
           required: true
-
